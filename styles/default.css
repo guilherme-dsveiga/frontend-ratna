@@ -1,0 +1,47 @@
+/************REFERENCIA DE COR***************
+
+dourado escuro: #b79360
+dourado claro: #ffc067
+branco: #f0f0f0
+preto: #1d1d1b
+
+************REFERENCIA DE COR***************/
+
+:root{
+        --main-white: #f0f0f0;
+        --main-lightgold: #ffc067;
+        --main-darkgold: #b79360;
+        --main-black: #1d1b1b;
+}
+ 
+.black-bg{
+        background-color: var(--main-black);
+}
+
+.white-bg{
+        background-color: var(--main-white);
+}
+
+.lightgold-bg{
+        background-color: var(--main-lightgold);
+}
+
+.darkgold-bg{
+        background-color: var(--main-darkgold);
+}
+
+.text-white{
+        color: var(--main-white)!important;
+}
+
+.text-black{
+        color:  var(--main-black)!important;
+}
+
+.text-lightgold{
+        color: var(--main-lightgold)!important;
+}
+
+.text-darkgold{
+        color: var(--main-darkgold)!important;
+}
