@@ -11,8 +11,12 @@
 
 .inner-wrapper{
         position: relative;
+}
+
+#bg-img{
         background-image: url("../assets/accountant-calculator.jpg");
         background-size: cover;
+        background-position: center;
 }
 
 .nav-grid-wrapper{
