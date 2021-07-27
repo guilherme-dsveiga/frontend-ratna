@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1500px){
+        .social-wrapper{
+                display: none;
+        }
+
+        .navbar{
+                justify-content: center;
+        }
+
+        .card-margin-left{
+                margin: 3rem 3rem 3rem 3rem!important;
+        }
+
+        .card-margin-right{
+                margin: 3rem 3rem 3rem 3rem!important;
+        }
+}
