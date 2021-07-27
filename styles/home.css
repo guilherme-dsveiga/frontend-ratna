@@ -4,12 +4,14 @@
 
 .outter-grid-wrapper{
         display: grid;
-        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-rows: 0.8fr 2fr 1fr 0.6fr;
+        overflow: hidden;
 }
 
 .inner-wrapper{
         position: relative;
-        padding-bottom: 10rem;
+        background-image: url("../assets/accountant-calculator.jpg");
+        background-size: cover;
 }
 
 .nav-grid-wrapper{
@@ -171,7 +173,7 @@
 .title-wrapper > h1{
         font-size: 81px;
         font-weight: 900;
-        color: black;
+        color: var(--main-black);
         letter-spacing: 0;
 }
 
@@ -251,7 +253,7 @@
 .infotext-title{
         margin: 0 auto 2rem 0;
         font-size: 42px;
-        color: black;
+        color: var(--main-black);
         padding-bottom: 1.5rem;
         border-bottom: 10px solid var(--main-darkgold);
         line-height: 110%;
@@ -301,7 +303,7 @@
 .utility{
         display: flex;
         flex-direction: column;
-        background-color: rgb(240,240,240);
+        background-color: var(--main-white);
 }
 
 .utility-title{
@@ -315,13 +317,208 @@
 .utility-item-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 2rem;
+        margin: 0 5rem;
 }
 
 .utility-item{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.u-icon{
+        padding-bottom: 1rem;
+}
+
+.u-title{
+        font-size: 36px;
+        font-weight: 600;
+        color: var(--main-black);
+        padding-bottom: 1rem;
+}
+
+.u-p{
+        font-size: 24px;
+        color: var(--main-black);
+}
+
+.img-sizer{
+        width: 5rem;
+}
+
+.img-mirror{
+        transform: scaleX(-1);
 }
 
 .latest-news{
         background-color: var(--main-darkgold);
+}
+
+.news{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--main-darkgold);
+}
+
+.news-title{
+        text-align: center;
+        margin: 3rem 0;
+        font-size: 56px;
+        font-weight: 900;
+        color: white;
+}
+
+.news-item-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 8rem;
+        margin: 0 5rem;
+}
+
+.news-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.n-icon{
+        padding-bottom: 1rem;
+}
+
+.n-p{
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--main-white); 
+        padding-bottom: 1rem;
+        line-height: 120%;
+}
+
+.n-date{
+        font-size: 24px;
+        color: var(--main-black); 
+        padding-bottom: 1rem;
+}
+
+.n-btn{
+        font-size: 28px;
+        color: var(--main-white);
+        background-color: var(--main-lightgold);
+        text-decoration: none;
+        border-radius: 2rem;
+        font-weight: 300;
+        padding: 0.5rem 2rem;
+        margin-bottom: 5rem;
+}
+
+.contact-us{
+        margin-top: 20rem;
+        display: grid;
+        grid-template-columns: 0.3fr 4fr 6fr ;
+        grid-template-rows: 0.1fr 0.2fr 3fr 0.4fr;
+        grid-template-areas: 
+        "aa ratna-w ac"
+        "ba ratna-w bc"
+        "ca ratna-w text-w"
+        "da db dc";
+}
+
+.aa{
+        grid-area: aa;
+}
+
+.ac{
+        grid-area: ac;
+}
+
+.ba{
+        grid-area: ba;
+        background-color: var(--main-darkgold);
+}
+
+.bc{
+        grid-area: bc;
+        background-color: var(--main-darkgold);
+}
+
+.ca{
+        grid-area: ca;
+        background-color: black;  
+}
+.da{
+        grid-area: da;
+        background-color: black;  
+}
+
+.db{
+        grid-area: db;
+        background-color: black;    
+}
+
+.dc{
+        grid-area: dc;
+        background-color: black;    
+}
+
+.ratna-wrapper{
+        grid-area: ratna-w;
+        background-color: rgb(38,38,38);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 3rem 2rem 2rem 2rem;
+}
+
+.logo-wrapper{
+        width: 100%;
+}
+
+.text-wrapper{
+        color: rgb(182, 182, 182);
+        font-size: 28px;
+        font-weight: 300;
+}
+
+.contact-text-wrapper{
+        grid-area: text-w;
+        background-color: black; 
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 8rem;
+        color: var(--main-white);
+}
+
+.contact-title{
+        font-size: 32px;
+        font-weight: 900;
+}
+
+.contact-p{
+        margin-top: 1rem;
+        font-size: 28px;
+        font-weight: 300;
+}
+
+.contact-number{
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+}
+
+.icons-wrapper{
+        display: flex;
+        flex-direction: row;
+}
+
+.c-icon{
+        background-color: rgb(38,38,38);
+        padding: 1rem;
+        margin: 0 4px;
 }
