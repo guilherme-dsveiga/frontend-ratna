@@ -1,0 +1,152 @@
+/*ZERANDO PARAMETROS*/
+*{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+}
+/*ESPECIFICANDO O LAYOUT DO SITE*/
+.outter-grid{
+        display: flex;
+        flex-direction: column;
+}
+/*BARRA DE NAVEGAÇÃO------------------------------*/
+.navbar-grid{
+        display: grid;
+        grid-template-columns: 1.2fr .9fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "logo mail number"
+        "logo navbar navbar";
+        border-bottom: 10px solid var(--main-darkgold);
+}
+/*PARTE DO LOGO*/
+.ratna-logo{
+        grid-area: logo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+/*PARTE DO E-MAIL*/
+.mail-wrapper{
+        grid-area: mail;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 600;
+        font-size: 24px;
+        border-left: 2px solid #B3B3B3;
+}
+/*PARTE DO TELEFONE*/
+.number-wrapper{
+        grid-area: number;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: black;
+        font-weight: 600;
+        font-size: 24px;
+        padding-left: 4rem;
+        border-left: 2px solid #B3B3B3;
+}
+
+/*PARTE DA NAVEGAÇÃO*/
+.navbar-wrapper{
+        grid-area: navbar;
+}
+
+.navbar{
+        height: 100%;
+}
+
+.nav-link{
+        font-size: 1.5rem;
+}
+
+.nav-item{
+        padding-left: 2rem;
+        padding-right: 2rem;
+}
+
+.social-svg{
+        width: 1rem;
+}
+
+.social-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+}
+
+.social-a{
+        align-items: center;
+}
+/*BARRA DE NAVEGAÇÃO------------------------------*/
+
+/*CONTEUDO DA PAGINA------------------------------*/
+.content-grid{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0;
+}
+
+.services-top-bar{
+        margin: 1rem 0 5rem 0;
+        font-size: 48px;
+        padding: 2rem;
+        background-color: var(--main-darkgold);
+        border-bottom-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        color: var(--main-white);
+        font-weight: 600;
+}
+
+.context-flex-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 3rem 0;
+}
+
+.services-text{
+        display: flex;
+        flex-direction: column;
+}
+
+.s-title{
+        font-size: 48px;
+        color: black;
+        font-weight: 600;
+        border-bottom: 10px solid var(--main-darkgold);
+        margin-right: auto;
+        line-height: 100%;
+        margin-bottom: 3rem;
+        overflow-y: hidden;
+}
+
+.s-p{
+        font-size: 28px;
+        color: var(--main--black);
+        line-height: 120%;
+}
+
+.menu-wrapper{  
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+}
+
+.item-bold{
+        font-size: 48px;
+        font-weight: 600;
+}
+
+/*CONTEUDO DA PAGINA------------------------------*/
+
+/*FOOTER------------------------------------------------*/
+.contact-us{
+        margin-top: 0!important;
+}
