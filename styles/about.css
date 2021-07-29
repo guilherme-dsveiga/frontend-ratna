@@ -1,0 +1,64 @@
+#grayish-bg{
+        background-color: rgb(244,244,244);
+        margin-bottom: 8rem;
+}
+
+.our-values{
+        margin: 0 0 5rem 1rem;
+        color: black;
+        font-size: 28px;
+        font-weight: 600;
+        overflow: hidden;
+}
+
+.our-values > span{
+        border-bottom: 10px solid #d43c46;
+        
+}
+
+.content-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.left-container{
+        display: flex;
+        flex-direction: column;
+}
+
+.right-container{
+        display: flex;
+        flex-direction: column;
+}
+
+.flex-item{
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+}
+
+.icon-flex{
+        width: 75px;
+        margin: 0 2rem;
+}
+
+.icon-flex > img{
+        width: 100%;
+}
+
+.text-flex{
+        display: flex;
+        flex-direction: column;
+}
+
+.text-title{
+        color: black;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+}
+
+.text-p{
+        color: #878787;
+        font-size: 24px;
+}
