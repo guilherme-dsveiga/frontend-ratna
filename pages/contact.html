@@ -4,8 +4,8 @@
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=1, initial-scale=1.0">
-        <title>Serviços - Ratna</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Ratna</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
                 integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                 crossorigin="anonymous">
@@ -16,8 +16,14 @@
         <link rel="stylesheet" href="../styles/default.css">
         <link rel="stylesheet" href="../styles/home.css">
         <link rel="stylesheet" href="../styles/services.css">
+        <link rel="stylesheet" href="../styles/about.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="stylesheet" href="../styles/responsive-css/contact-responsive.css">
         <link rel="stylesheet" href="../styles/responsive-css/home-responsive.css">
         <link rel="stylesheet" href="../styles/responsive-css/services-responsive.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,10 +48,12 @@
                                                                 <a class="nav-link " href="../pages/home.html">HOME</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                                <a class="nav-link " href="../pages/about.html">RATNA</a>
+                                                                <a class="nav-link active"
+                                                                        href="../pages/about.html">RATNA</a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                                <a class="nav-link active " href="../pages/services.html">SERVIÇOS</a>
+                                                                <a class="nav-link "
+                                                                        href="../pages/services.html">SERVIÇOS</a>
                                                         </li>
                                                         <li class="nav-item ">
                                                                 <a class="nav-link " href="#">CLIENTES</a>
@@ -74,98 +82,69 @@
                                                                                 alt=""></a>
                                                         </li>
                                                 </ul>
-                                                </ul>
                                         </div>
                                 </nav>
                         </div>
                 </div>
-                <div class="content-grid">
-                        <div class="services-top-bar">Serviços</div>
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="s-p">Prestamos os serviços de planejamento e revisão tributária,
-                                                análise das<br> notas fiscais, apuração e emissão de guias de impostos,
-                                                escrituração<br> de livros fiscais, declarações anuais obrigatórias para
-                                                pessoa jurídica e<br> parcelamentos de débitos fiscias.</div>
-                                        <div class="menu-wrapper">
-                                                <img src="../assets/servicos-fiscais.jpg" alt="">
+                <div class="content-grid" id="darkgold-bg">
+                        <div class="left-half">
+                                <div class="budget-title">SOLICITE UM <span>ORÇAMENTO<span></div>
+                                <div class="budget-form">
+                                        <div class="form-group">
+                                                <label for="nameInput">Nome:*</label>
+                                                <input type="text" class="form-control form-control-lg" id="nameInput"
+                                                        placeholder="Nome">
                                         </div>
                                 </div>
-                                <div class="services-image">
-                                        <img src="../assets/fiscais.png" alt="">
-                                </div>
-                        </div>
-                </div>
-                <div class="content-grid">
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="s-p">Auxiliamos na abertura da sua empresa fazendo uma viabilidade
-                                                para<br> sabermos se a localização é pertinente com o ramo escolhido,
-                                                registro<br> em todos os órgãos pertinentes, assim como em alterações
-                                                contratuais<br> também, entre outros serviços.</div>
-                                        <div class="menu-wrapper">
-                                                <img src="../assets/servicos-legalizacao.jpg" alt="">
+                                <div class="budget-form">
+                                        <div class="form-group">
+                                                <label for="emailInput">E-mail:*</label>
+                                                <input type="email" class="form-control form-control-lg" id="emailInput"
+                                                        placeholder="email@email.com">
                                         </div>
                                 </div>
-                                <div class="services-image">
-                                        <img src="../assets/legalizacao.png" alt="">
-                                </div>
-                        </div>
-                </div>
-                <div class="content-grid">
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="s-title">MEI</div>
-                                        <div class="s-p">Oferecemos um suporte de assessoria para o MEI(prestador de
-                                                serviço<br> ou comércio), auxiliamos sobre faturamento, fazemos o
-                                                cadastramento<br> perante órgãos perinentes, registro de funcionários,
-                                                entre outros serviços<br> necessários.</div>
-                                </div>
-                                <div class="services-image">
-                                        <img src="../assets/mei.png" alt="">
-                                </div>
-                        </div>
-                </div>
-                <div class="content-grid">
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="menu-wrapper">
-                                                <img src="../assets/servicos-tributarios.jpg" alt="">
+                                <div class="budget-form">
+                                        <div class="form-group">
+                                                <label for="telephoneInput">Telefone:*</label>
+                                                <input type="text" class="form-control form-control-lg"
+                                                        id="telephoneInput" placeholder="00 0000-0000">
                                         </div>
                                 </div>
-                                <div class="services-image">
-                                        <img src="../assets/tributaria.png" alt="">
-                                </div>
-                        </div>
-                </div>
-                <div class="content-grid">
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="s-p">Prestamos os serviços de elaboração e entrega das
-                                                declarações<br> obrigatórias às pessoas jurídicas, elaboração de
-                                                demonstrações<br> financeiras e contábeis, escrituração contábil da
-                                                movimentação<br> fincanceira e patrimonial.</div>
-                                        <div class="menu-wrapper">
-                                                <img src="../assets/servicos-contabeis.jpg" alt="">
+                                <div class="budget-form">
+                                        <div class="form-group">
+                                                <label for="messageInput">Mensagem:*</label>
+                                                <textarea class="form-control form-control-lg" id="messageInput"
+                                                        rows="3" placeholder="Mensagem"></textarea>
                                         </div>
                                 </div>
-                                <div class="services-image">
-                                        <img src="../assets/contabeis.png" alt="">
-                                </div>
+                                <div class="budget-btn">ENVIAR MENSAGEM</div>
                         </div>
-                </div>
-                <div class="content-grid">
-                        <div class="context-flex-wrapper">
-                                <div class="services-text">
-                                        <div class="s-p">Prestamos os serviços de cálculo de folha de pagamento,
-                                                orientações<br> sobre a legislação trabalhista, elaboração de RPA, envio
-                                                do E-social,<br> entre outros serviços.</div>
-                                        <div class="menu-wrapper">
-                                                <img src="../assets/servicos-departamento-pessoal.jpg" alt="">
+                        <div class="right-half">
+                                <div class="fale-ratna flex-spacing">
+                                        <div class="f-title">FALE COM A RATNA</div>
+                                        <div class="f-p">sit amet, consectetur adipiscing elit, sed do<br> eiusmod
+                                                tempor incididunt ut labore et dolore<br> magna aliqua. Quis ipsum
+                                                suspendisse ultrices<br> gravida. Risus commodo viverra maecenas<br>
+                                                accumsan.</div>
+                                </div>
+                                <div class="info-space flex-spacing">
+                                        <div class="i-site">www.ratnacontabilidade.com.br</div>
+                                        <div class="i-number">
+                                                <span><img src="../assets/telephone-white.svg" alt=""></span>
+                                                <span>(00) 0000-0000</span>
+                                        </div>
+                                        <div class="i-mail">
+                                                <span class="px-1"><img src="../assets/mail-white.svg" alt=""></span>
+                                                <span>contato@ratna.com</span>
+                                        </div>
+                                        <div class="i-address">
+                                                <span><img src="../assets/address-white.svg" alt=""></span>
+                                                <span>Rua Julio Conceição, 69 - sala 2</span>
                                         </div>
                                 </div>
-                                <div class="services-image">
-                                        <img src="../assets/departamento-pessoal.png" alt="">
+                                <div class="horarios flex-spacing">
+                                        <div class="h-title">HORÁRIO DE ATENDIMENTO</div>
+                                        <div class="h-p">Segunda à Sexta das 8h às 18h</div>
                                 </div>
                         </div>
                 </div>
@@ -207,9 +186,6 @@
                 </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"></script>
 </body>
 
 </html>

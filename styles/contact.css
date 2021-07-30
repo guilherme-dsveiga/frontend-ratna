@@ -1,0 +1,105 @@
+#darkgold-bg{
+        background-color: var(--main-darkgold)!important;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: .8fr .8fr;
+        padding: 5rem 0;
+}
+
+.left-half{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+}
+
+.budget-title{
+        color: white;
+        font-size: 56px;
+        font-weight: 600;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+
+}
+
+.budget-title > span{
+        border-bottom: 20px solid black;
+}
+
+.form-group{
+        margin: 1rem 0;
+}
+
+.form-group > label{
+        color: white;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 120%;
+}
+
+.budget-btn{
+        background-color: black;
+        color: white;
+        font-size: 28px;
+        margin: 1rem auto 0 0;
+        padding: .5rem 1rem;
+        font-weight: 600;
+        border-radius: 1rem;
+}
+
+.right-half{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+}
+
+.fale-ratna{
+        background-color: rgb(163,130,84);
+        border-radius: 1rem;
+        padding: 1rem 2rem 2rem 2rem;
+        color: white;
+}
+
+.f-title{
+        font-size: 42px;
+        font-weight: 600;
+}
+
+.f-p{
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 120%;
+}
+
+.flex-spacing{
+        margin: 1rem 0;
+}
+
+.info-space{
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        font-weight: 300;
+}
+
+.i-site{
+        font-weight: 400!important;
+}
+
+.horarios{
+        font-size: 28px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+        font-weight: 300;
+}
+
+.h-title{
+        font-size: 36px;
+        font-weight: 600;
+}
+
+

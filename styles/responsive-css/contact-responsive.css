@@ -1,0 +1,15 @@
+@media  only screen and (max-width: 1500px) {
+        #darkgold-bg{
+                margin: 5rem 0!important;
+                padding: 5rem 2rem;
+                column-gap: 3rem;
+        }
+
+        .budget-title{
+                font-size: 48px;
+        }
+
+        .f-p{
+                font-size: 26px;
+        }
+}
