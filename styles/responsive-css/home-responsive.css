@@ -7,11 +7,47 @@
                 justify-content: center;
         }
 
+        .nav-item{
+                padding: 0 1.5rem;
+        }
+
         .card-margin-left{
                 margin: 3rem 3rem 3rem 3rem!important;
         }
 
         .card-margin-right{
                 margin: 3rem 3rem 3rem 3rem!important;
+        }
+
+        .card-item{
+                padding: 5rem 4rem;
+        }
+
+        .card-title{
+                font-size: 36px;
+        }
+
+        .card-p{
+                font-size: 24px;
+        }
+
+        .main-slidetext-wrapper h1{
+                font-size: 48px;
+        }
+
+        .main-slidetext-wrapper p{
+                font-size: 28px;
+        }
+
+        .main-slidetext-wrapper a{
+                font-size: 28px;
+        }
+
+        .title-wrapper h1{
+                font-size: 63px;
+        }
+
+        .n-p{
+                font-size: 28px;
         }
 }
