@@ -134,8 +134,8 @@ a:hover{
 
 .slide-button{
         background-color: #a7a7a7;
-        width: 7rem;
-        height: 7rem;
+        width: 5rem;
+        height: 5rem;
         border-radius: 100%;
         align-items: center;
 }
@@ -152,8 +152,8 @@ a:hover{
 
 .arrow-img-left{
         position: absolute;
-        top: 32px;
-        left: 28px;
+        top: 15px;
+        left: 12px;
         height: auto;
         width: 50px;
         -webkit-transform: scaleX(-1);
@@ -162,8 +162,8 @@ a:hover{
 
 .arrow-img-right{
         position: absolute;
-        top: 32px;
-        left: 35px;
+        top: 15px;
+        left: 18px;
         height: auto;
         width: 50px;
 }
