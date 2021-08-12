@@ -1,11 +1,10 @@
 #grayish-bg{
         background-color: rgb(244,244,244);
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
 }
 
 .our-values{
         padding: 1rem;
-        margin-bottom: 3rem;
         color: black;
         font-size: 28px;
         font-weight: 600;
@@ -15,6 +14,11 @@
 .our-values > span{
         border-bottom: 10px solid #d43c46;
         
+}
+
+.align-center{
+        align-items: center!important;
+        margin: 0!important;
 }
 
 .content-flex{
@@ -40,7 +44,7 @@
 
 .icon-flex{
         width: 75px;
-        margin: 0 2rem;
+        margin: 0 1rem;
 }
 
 .icon-flex > img{
@@ -54,12 +58,12 @@
 
 .text-title{
         color: black;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 600;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
 }
 
 .text-p{
         color: #878787;
-        font-size: 22px;
+        font-size: 18px;
 }

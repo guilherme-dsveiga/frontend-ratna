@@ -40,7 +40,7 @@
         align-items: center;
         color: black;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 18px;
         border-left: 2px solid #B3B3B3;
 }
 
@@ -52,7 +52,7 @@
         align-items: center;
         color: black;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 18px;
         padding-left: 4rem;
         border-left: 2px solid #B3B3B3;
 }
@@ -67,7 +67,7 @@
 }
 
 .nav-link {
-        font-size: 1.5rem;
+        font-size: 20px;
 }
 
 .nav-item {
@@ -101,9 +101,9 @@
 }
 
 .services-top-bar {
-        margin: 1rem 0 5rem 0;
-        font-size: 36px;
-        padding: 2rem;
+        margin: 1rem .2rem 3em .2rem;
+        font-size: 28px;
+        padding: 1.2rem;
         background-color: var(--main-darkgold);
         border-bottom-left-radius: 4rem;
         border-bottom-right-radius: 4rem;
@@ -124,7 +124,7 @@
 }
 
 .s-title {
-        font-size: 48px;
+        font-size: 36px;
         color: black;
         font-weight: 600;
         border-bottom: 10px solid var(--main-darkgold);
@@ -135,7 +135,7 @@
 }
 
 .s-p {
-        font-size: 24px;
+        font-size: 20px;
         color: var(--main--black);
         line-height: 120%;
 }

@@ -13,7 +13,7 @@ a:hover{
 
 .inner-wrapper{
         position: relative;
-        padding-bottom: 5rem;
+        padding-bottom: 4rem;
 }
 
 #bg-img{
@@ -41,7 +41,7 @@ a:hover{
         justify-content: center;
         align-items: center;
         background-color: white;
-        padding: 4rem 3rem;
+        padding: 3rem 3rem;
 }
 
 .resize-img{
@@ -49,7 +49,7 @@ a:hover{
 }
 
 .nav-link{
-        font-size: 1.5rem;
+        font-size: 20px;
 }
 
 .nav-item{
@@ -92,7 +92,7 @@ a:hover{
         grid-template-rows: 3fr;
         grid-template-areas: 
         "slidebutton-left main-slidetext-wrapper slidebutton-right";
-        margin-top: 5rem;
+        margin-top: 4rem;
 }
 
 .slidebutton-left{
@@ -113,13 +113,13 @@ a:hover{
 }
 
 .main-slidetext-wrapper > h1{
-        font-size: 56px;
+        font-size: 42px;
         color: var(--main-white);
         font-weight: bold;
 }
 
 .main-slidetext-wrapper > p{
-        font-size: 28px;
+        font-size: 22px;
         color: var(--main-white);
         line-height: 120%;
 }
@@ -140,7 +140,7 @@ a:hover{
 }
 
 .contact-button{
-        font-size: 28px;
+        font-size: 22px;
         color: var(--main-white);
         background-color: var(--main-darkgold);
         margin-right: auto;
@@ -183,7 +183,7 @@ a:hover{
 }
 
 .title-wrapper > h1{
-        font-size: 56px;
+        font-size: 42px;
         font-weight: 900;
         color: var(--main-black);
         letter-spacing: 0;
@@ -196,30 +196,34 @@ a:hover{
 .card-wrapper{
         grid-area: card-wrapper;
         background-color: white;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
 }
 
-.no-margin-top{
-        margin-top: 0!important;
+.two-items{
+        display: flex;
+        flex-direction: row;
+}
+
+.spacing{
+        width: 200px;
+}
+
+.spacing-2{
+        width: 200px;
 }
 
 .card-grid{
-        margin: 3rem 15rem 2rem 15rem;
+        width: 400px;
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-}
-
-.card-margin-left{
-        margin: 3rem 8rem 2rem 20rem!important;
-}
-
-.card-margin-right{
-        margin: 3rem 20rem 2rem 8rem!important;
+        align-content: flex-end;
 }
 
 .top-circle{
@@ -248,21 +252,21 @@ a:hover{
 
 .card-title{
         text-align: center;
-        font-size: 36px;
+        font-size: 24px;
         font-weight: bold;
-        padding-bottom: 1rem;
 }
 
 .card-p{
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
 }
 
 .info-wrapper{
         grid-area: info-wrapper;
-        padding: 5rem 10rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        padding: 5rem 3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
 }
 
 .infotext-wrapper{
@@ -271,10 +275,10 @@ a:hover{
 }
 
 .infotext-title{
-        margin: 0 auto 2rem 0;
-        font-size: 36px;
+        margin: 0 auto 1rem 0;
+        font-size: 24px;
         color: var(--main-black);
-        padding-bottom: 1.5rem;
+        padding-bottom: .5rem;
         border-bottom: 10px solid var(--main-darkgold);
         line-height: 110%;
         
@@ -285,9 +289,9 @@ a:hover{
 }
 
 .infotext-p{
-        font-size: 24px;
+        font-size: 18px;
         color: rgb(124, 124, 124);
-        line-height: 120%;
+        line-height: 110%;
         font-weight: 400;
 }
 
@@ -297,7 +301,7 @@ a:hover{
 
 
 .infotext-button{
-        font-size: 24px;
+        font-size: 20px;
         margin-right: auto;
         color: var(--main-white);
         background-color: var(--main-darkgold);
@@ -329,7 +333,7 @@ a:hover{
 .utility-title{
         text-align: center;
         margin: 3rem 0;
-        font-size: 44px;
+        font-size: 36px;
         font-weight: 900;
         color: var(--main-darkgold);
 }
@@ -354,14 +358,14 @@ a:hover{
 }
 
 .u-title{
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 600;
         color: var(--main-black);
         padding-bottom: 1rem;
 }
 
 .u-p{
-        font-size: 20px;
+        font-size: 18px;
         color: var(--main-black);
 }
 
@@ -390,7 +394,7 @@ a:hover{
 .news-title{
         text-align: center;
         margin: 3rem 0;
-        font-size: 44px;
+        font-size: 36px;
         font-weight: 900;
         color: white;
 }
@@ -415,7 +419,7 @@ a:hover{
 }
 
 .n-p{
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 600;
         color: var(--main-white); 
         padding-bottom: 1rem;
@@ -423,7 +427,7 @@ a:hover{
 }
 
 .n-date{
-        font-size: 20px;
+        font-size: 18px;
         color: var(--main-black); 
         padding-bottom: 1rem;
 }
