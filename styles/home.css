@@ -114,13 +114,13 @@ a:hover{
 }
 
 .main-slidetext-wrapper > h1{
-        font-size: 72px;
+        font-size: 56px;
         color: var(--main-white);
         font-weight: bold;
 }
 
 .main-slidetext-wrapper > p{
-        font-size: 38px;
+        font-size: 28px;
         color: var(--main-white);
         line-height: 120%;
 }
@@ -141,7 +141,7 @@ a:hover{
 }
 
 .contact-button{
-        font-size: 36px;
+        font-size: 28px;
         color: var(--main-white);
         background-color: var(--main-darkgold);
         margin-right: auto;
@@ -180,11 +180,11 @@ a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 3rem 0 ;
+        padding: 1rem 0 ;
 }
 
 .title-wrapper > h1{
-        font-size: 81px;
+        font-size: 56px;
         font-weight: 900;
         color: var(--main-black);
         letter-spacing: 0;
@@ -207,7 +207,7 @@ a:hover{
 }
 
 .card-grid{
-        margin: 3rem 8rem 5rem 8rem;
+        margin: 3rem 15rem 2rem 15rem;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -215,12 +215,12 @@ a:hover{
         align-items: center;
 }
 
-.card-grid-left{
-        margin: 3rem 8rem 5rem 8rem!important;
+.card-margin-left{
+        margin: 3rem 8rem 2rem 20rem!important;
 }
 
-.card-grid-right{
-        margin: 3rem 8rem 5rem 8rem!important;
+.card-margin-right{
+        margin: 3rem 20rem 2rem 8rem!important;
 }
 
 .top-circle{
@@ -241,27 +241,27 @@ a:hover{
 }
 
 .card-item{
-        font-size: 24px;
+        font-size: 18px;
         box-shadow: 2px 4px 12px 3px var(--main-darkgold);
         border-radius: 20px;
-        padding: 4rem
+        padding: 5rem 1rem;
 }
 
 .card-title{
-        padding-top: 2rem;
         text-align: center;
-        font-size: 48px;
+        font-size: 36px;
         font-weight: bold;
+        padding-bottom: 1rem;
 }
 
 .card-p{
-        font-size: 32px;
+        font-size: 24px;
         text-align: center;
 }
 
 .info-wrapper{
         grid-area: info-wrapper;
-        padding: 8rem 5rem;
+        padding: 5rem 10rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
 }
@@ -273,7 +273,7 @@ a:hover{
 
 .infotext-title{
         margin: 0 auto 2rem 0;
-        font-size: 42px;
+        font-size: 36px;
         color: var(--main-black);
         padding-bottom: 1.5rem;
         border-bottom: 10px solid var(--main-darkgold);
@@ -286,7 +286,7 @@ a:hover{
 }
 
 .infotext-p{
-        font-size: 28px;
+        font-size: 24px;
         color: rgb(124, 124, 124);
         line-height: 120%;
         font-weight: 400;
@@ -298,7 +298,7 @@ a:hover{
 
 
 .infotext-button{
-        font-size: 28px;
+        font-size: 24px;
         margin-right: auto;
         color: var(--main-white);
         background-color: var(--main-darkgold);
@@ -330,7 +330,7 @@ a:hover{
 .utility-title{
         text-align: center;
         margin: 3rem 0;
-        font-size: 56px;
+        font-size: 44px;
         font-weight: 900;
         color: var(--main-darkgold);
 }
@@ -355,14 +355,14 @@ a:hover{
 }
 
 .u-title{
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 600;
         color: var(--main-black);
         padding-bottom: 1rem;
 }
 
 .u-p{
-        font-size: 24px;
+        font-size: 20px;
         color: var(--main-black);
 }
 
@@ -391,7 +391,7 @@ a:hover{
 .news-title{
         text-align: center;
         margin: 3rem 0;
-        font-size: 56px;
+        font-size: 44px;
         font-weight: 900;
         color: white;
 }
@@ -416,7 +416,7 @@ a:hover{
 }
 
 .n-p{
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 600;
         color: var(--main-white); 
         padding-bottom: 1rem;
@@ -424,14 +424,14 @@ a:hover{
 }
 
 .n-date{
-        font-size: 24px;
+        font-size: 20px;
         color: var(--main-black); 
         padding-bottom: 1rem;
 }
 
 .n-btn{
-        font-size: 28px;
-        color: var(--main-white);
+        font-size: 24px;
+        color: white;
         background-color: var(--main-lightgold);
         text-decoration: none;
         border-radius: 2rem;
@@ -441,7 +441,7 @@ a:hover{
 }
 
 .contact-us{
-        margin-top: 10rem;
+        margin-top: 5rem;
         display: grid;
         grid-template-columns: 0.3fr 4fr 6fr ;
         grid-template-rows: 0.1fr 0.2fr 3fr 0.4fr;
@@ -505,7 +505,7 @@ a:hover{
 
 .text-wrapper{
         color: rgb(182, 182, 182);
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 300;
 }
 
@@ -519,18 +519,18 @@ a:hover{
 }
 
 .contact-title{
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 900;
 }
 
 .contact-p{
         margin-top: 1rem;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 300;
 }
 
 .contact-number{
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 300;
         margin-top: 1rem;
         display: flex;
