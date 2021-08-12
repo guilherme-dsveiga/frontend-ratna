@@ -1,5 +1,5 @@
 var i = 0;
-var images = ["../assets/accountant-calculator.jpg", "../assets/accountant-calculator.jpg", "../assets/accountant-calculator.jpg"];
+var images = ["assets/accountant-calculator.jpg", "assets/accountant-calculator.jpg", "assets/accountant-calculator.jpg"];
 var slideTime = 5000; // 3 seconds
 
 function changeImageFoward() {
