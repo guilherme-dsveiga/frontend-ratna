@@ -130,7 +130,6 @@
         border-bottom: 10px solid var(--main-darkgold);
         margin-right: auto;
         line-height: 100%;
-        margin-bottom: 3rem;
         overflow-y: hidden;
 }
 
@@ -138,10 +137,11 @@
         font-size: 20px;
         color: var(--main--black);
         line-height: 120%;
+        margin-top: 2rem;
 }
 
 .menu-wrapper {
-        margin-top: 2rem;
+        
         display: flex;
         flex-direction: row;
 }
