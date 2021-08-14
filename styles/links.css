@@ -26,6 +26,15 @@
         text-align: center;
 }
 
+.button-item a{
+        color: white;
+        text-decoration: none;
+}
+
+.button-item:hover{
+        background-color: rgba(151,117,69,1);
+}
+
 .link-p{
         text-align: center;
         color: black;
