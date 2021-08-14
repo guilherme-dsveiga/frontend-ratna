@@ -397,6 +397,7 @@ a:hover{
 }
 
 .news-title{
+        display: none;
         text-align: center;
         margin: 3rem 0;
         font-size: 36px;
@@ -412,7 +413,7 @@ a:hover{
 }
 
 .news-item{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
