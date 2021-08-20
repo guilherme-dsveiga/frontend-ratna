@@ -15,6 +15,10 @@
 }
 
 @media only screen and (max-width: 991px){
+        .outter-grid-wrapper{
+                width: 100vw;
+        }
+
         .nav-grid-wrapper{
                 grid-template-columns: 5fr 5fr;
         }
@@ -142,6 +146,7 @@
         }
 
         .utility-item{
+
                 padding-bottom: 2rem;
         }
 
@@ -163,7 +168,7 @@
         }
 
         .contact-us{
-                display: flex;
+                display: none;
                 flex-direction: column;
         }
 
@@ -180,6 +185,7 @@
                 display: block;
                 cursor: pointer;
                 margin-right: 20px ;
+                transition: all ease 2s;
         }
 
         .navbar{
@@ -193,6 +199,7 @@
                 right: 0;
                 background-color: var(--main-black);
                 z-index: 9999;
+                transition: all ease 2s;
         }
 
         .menu-block a{
@@ -223,5 +230,27 @@
                 font-weight: 700;
                 font-size: 18px!important;
                 cursor: pointer;
+        }
+
+        .accounts-news{
+                display: flex;
+                flex-direction: column;
+                row-gap: 2rem;
+        }
+
+        .latest-news{
+                margin-bottom: 2rem;
+        }
+
+        footer{
+                display: block;
+                background-color: var(--main-black);
+                padding: 2rem 1rem 1rem 1rem;
+        }   
+
+        footer p{
+                text-align: center;
+                font-size: 16px;
+                color: white;
         }
 }
