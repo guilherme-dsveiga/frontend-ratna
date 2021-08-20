@@ -569,3 +569,11 @@ a:hover {
         padding: 1rem;
         margin: 0 4px;
 }
+
+.menu-wrapper{
+        display: none;
+}
+
+.menu-block{
+        display: none;
+}

@@ -13,3 +13,215 @@
                 padding: 5rem 10rem;
         }
 }
+
+@media only screen and (max-width: 991px){
+        .nav-grid-wrapper{
+                grid-template-columns: 5fr 5fr;
+        }
+
+        .img-wrapper{
+                padding: 1rem;
+        }
+
+        .slideshow-wrapper{
+                margin-top: 2rem;
+        }
+
+        .main-slidetext-wrapper h1{
+                font-size: 24px;
+        }
+
+        .main-slidetext-wrapper p{
+                font-size: 16px;
+        }
+
+        .arrow-img-left{
+                width: 25px;
+                height: 25px;
+                top: 8px;
+                left: 6px;
+        }
+
+        .arrow-img-right{
+                width: 25px;
+                height: 25px;
+                top: 8px;
+                left: 9px;
+        }
+
+        .slidebutton-left{
+                width: 40px;
+                height: 40px;
+        }
+
+        .slide-button{
+                width: 40px;
+                height: 40px;
+        }
+
+        .slidebutton-right{
+                width: 40px;
+                height: 40px;
+        }
+
+        .contact-button{
+                padding: 5px 10px!important;
+                font-size: 16px;
+        }
+
+        .our-services{
+                padding-top: 1rem;
+                padding-bottom: 0;
+        }
+
+        .title-wrapper h1{
+                font-size: 24px;
+        }
+
+        .title-wrapper span{
+                border-bottom: 8px solid var(--main-darkgold);
+        }
+
+        .card-wrapper{
+                gap: 2rem;
+        }
+
+        .two-items{
+                flex-direction: column;
+        }
+
+        .spacing{
+               display: none;
+        }
+
+        .card-grid{
+                width: 350px;
+        }
+
+        .top-circle{
+                width: 75px;
+                height: 75px;
+        }
+
+        .top-circle img{
+                height: 2.5rem;
+        }
+
+        .card-title{
+                font-size: 20px;
+        }
+
+        .card-p{
+                font-size: 16px;
+        }
+
+        .margin-bottom{
+                margin-bottom: 2rem;
+        }
+
+        .info-wrapper{
+                flex-direction: column;
+        }
+
+        .video-wrapper{
+                width: 100%;
+        }
+
+        .video-wrapper img{
+                width: 100%;
+        }
+
+        .spacing-2{
+                display: none;
+        }
+
+        .utility-item-grid{
+                display: flex;
+                flex-direction: column;
+                margin: 0 2rem;
+        }
+
+        .utility-item{
+                padding-bottom: 2rem;
+        }
+
+        .img-sizer{
+                width: 3rem;
+        }
+
+        .u-icon{
+                padding-bottom: .5rem;
+        }
+        
+        .u-title{
+                font-size: 22px;
+                padding-bottom: .0;
+        }
+
+        .u-p{
+                font-size: 18px;
+        }
+
+        .contact-us{
+                display: flex;
+                flex-direction: column;
+        }
+
+        .ratna-wrapper{
+                padding: 1rem 2rem;
+        }
+
+        .text-wrapper{
+                padding-top: 1rem;
+                font-size: 18px;
+        }
+        
+        .menu-wrapper{
+                display: block;
+                cursor: pointer;
+                margin-right: 20px ;
+        }
+
+        .navbar{
+                justify-content: flex-end!important;
+        }
+
+        .menu-block{
+                display: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: var(--main-black);
+                z-index: 9999;
+        }
+
+        .menu-block a{
+                text-align: center;
+                font-size: 16px;
+                color: var(--main-white);
+                text-decoration: none;
+                transition: all ease .2s;
+        }
+
+        .menu-block a:hover{
+                color: rgb(172, 171, 171);
+        }
+
+        .social-item{
+                text-align: center;
+                font-size: 16px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+        }
+
+        .social-item a{
+                margin-bottom: 5px;
+        }
+
+        .super{
+                font-weight: 700;
+                font-size: 18px!important;
+                cursor: pointer;
+        }
+}
