@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="./styles/links.css">
         <link rel="stylesheet" href="./styles/responsive-css/home-responsive.css">
         <link rel="stylesheet" href="./styles/responsive-css/services-responsive.css">
+        <link rel="stylesheet" href="./styles/responsive-css/links-responsive.css">
         <link rel="shortcut icon" href="./assets/favicon.jpg">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -47,10 +48,10 @@
                                                                 <a class="nav-link " href="./home.html">HOME</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                                <a class="nav-link active" href="./about.html">RATNA</a>
+                                                                <a class="nav-link" href="./about.html">RATNA</a>
                                                         </li>
                                                         <li class="nav-item ">
-                                                                <a class="nav-link " href="./services.html">SERVIÇOS</a>
+                                                                <a class="nav-link active" href="./services.html">SERVIÇOS</a>
                                                         </li>
                                                         <li class="nav-item ">
                                                                 <a class="nav-link " href="./contact.html">CONTATO</a>
@@ -58,24 +59,62 @@
                                                 </ul>
                                                 <ul class="navbar-nav">
                                                         <li class="nav-item social-wrapper">
-                                                                <a href="https://www.facebook.com/Ratnacontabilidade"
-                                                                        class="social-a px-2"><img class="social-svg"
-                                                                                src="./assets/facebook-icon.svg"
-                                                                                alt=""></a>
-                                                                <a href="https://www.instagram.com/ratna_contabilidade"
-                                                                        class="social-a px-2"><img class="social-svg"
-                                                                                src="./assets/instagram-icon.svg"
-                                                                                alt=""></a>
-                                                                <a href="#" class="social-a px-2"><img
-                                                                                class="social-svg"
-                                                                                src="./assets/twitter-icon.svg"
-                                                                                alt=""></a>
+                                                                <a href="https://www.facebook.com/Ratnacontabilidade" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/facebook-icon.svg"
+                                                                        alt=""></a>
+                                                        <a href="https://www.instagram.com/ratna_contabilidade" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/instagram-icon.svg"
+                                                                        alt=""></a>
+                                                        <a href="#" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/twitter-icon.svg"
+                                                                        alt=""></a>
                                                         </li>
                                                 </ul>
-                                                </ul>
                                         </div>
+                                        <div class="menu-burger">
+                                                <a id="menu" onclick="openMenu()"><img src="assets/menu.svg" alt=""></a>
+                                        </div> 
+                                        
                                 </nav>
+                                <div class="menu-block" id="block">
+                                        <div class="menu-item">
+                                                <a class="nav-link super" onclick="closeMenu()">X</a>
+                                        </div>
+                                        <div class="menu-item">
+                                                <a class="nav-link active " href="./home.html">HOME</a>
+                                        </div>
+                                        <div class="menu-item">
+                                                <a class="nav-link " href="./about.html">RATNA</a>
+                                        </div>
+                                        <div class="menu-item">
+                                                <a class="nav-link " href="./services.html">SERVIÇOS</a>
+                                        </div>
+                                        <div class="menu-item">
+                                                <a class="nav-link " href="./contact.html">CONTATO</a>
+                                        </div>
+                                        <div class="menu-item">
+                                                <div class="social-item">
+                                                        <a href="#" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/facebook-icon.svg"
+                                                                        alt=""></a>
+                                                        <a href="#" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/instagram-icon.svg"
+                                                                        alt=""></a>
+                                                        <a href="#" class="social-a px-2"><img
+                                                                        class="social-svg"
+                                                                        src="./assets/twitter-icon.svg"
+                                                                        alt=""></a>
+                                                </div>
+                                        </div>
+                                        </div>
+
                         </div>
+                        
                 </div>
                 <div class="content-grid">
                         <div class="flex-row">
@@ -184,6 +223,13 @@
                         <div class="black-rect db"></div>
                         <div class="black-rect dc"></div>
                 </div>
+                <footer>
+                        <p>© 2021 - Ratna Contabilidade. Desenvolvido por JOBS Digital.</p>
+                        <p>Este site é protegido pelo reCAPTCHA e a Política de Privacidade e os Termos de Serviços do
+                                Google se aplicam.</p>
+                </footer>
+
+                <script src="scripts/menu.js"></script>
 </body>
 
 </html>
