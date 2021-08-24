@@ -8,3 +8,55 @@
                 justify-content: center;
         }
 }
+
+@media only screen and (max-width: 990px){
+    .mail-wrapper{
+            display: none;
+    }
+    .number-wrapper{
+            display: none;
+    }
+
+    .ratna-logo img{
+           max-height: 60px;
+    }
+
+    .navbar-grid{
+         grid-template-areas:
+            "logo  navbar"
+            "logo  navbar";
+        grid-template-rows: 30px 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .services-top-bar{
+            text-align: center;
+            margin-bottom: 3rem;
+    }
+
+    .menu-wrapper img{
+            width: 100%;
+    }
+
+    .context-flex-wrapper{
+            flex-direction: column;
+            align-items: center;
+    }
+
+    .services-image{
+            width: 100%;
+    }
+
+    .s-p{
+            margin-bottom: 2rem;
+            font-size: 16px;
+    }
+
+    #no-p-image{
+            margin-top: 2rem;
+    }
+
+    .side-short-p-one{
+        padding-top: 0;
+}
+}

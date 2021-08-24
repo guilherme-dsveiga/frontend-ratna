@@ -88,6 +88,7 @@
 
         .card-wrapper{
                 gap: 2rem;
+                padding: 0 2rem;
         }
 
         .two-items{
@@ -99,7 +100,7 @@
         }
 
         .card-grid{
-                width: 350px;
+                width: 100%;
         }
 
         .top-circle{
@@ -131,9 +132,6 @@
                 width: 100%;
         }
 
-        .video-wrapper img{
-                width: 100%;
-        }
 
         .spacing-2{
                 display: none;
@@ -181,7 +179,7 @@
                 font-size: 18px;
         }
         
-        .menu-wrapper{
+        .menu-burger{
                 display: block;
                 cursor: pointer;
                 margin-right: 20px ;

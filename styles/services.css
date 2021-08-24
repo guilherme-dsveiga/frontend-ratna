@@ -32,6 +32,10 @@
         align-items: center;
 }
 
+.ratna-logo img{
+        width: 100%;
+}
+
 /*PARTE DO E-MAIL*/
 .mail-wrapper {
         grid-area: mail;
@@ -141,9 +145,7 @@
 }
 
 .menu-wrapper {
-        
         display: flex;
-        flex-direction: row;
 }
 
 .item-bold {

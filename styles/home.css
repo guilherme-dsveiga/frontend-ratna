@@ -218,7 +218,7 @@ a:hover {
 }
 
 .card-grid {
-        width: 400px;
+        max-width: 400px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -267,22 +267,29 @@ a:hover {
         padding: 5rem 3rem;
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        justify-content: center;
 }
 
-.infotext-wrapper {
-        display: flex;
-        flex-direction: column;
+.spacing-2{
+        width: 0;
+}
+
+.info-wrapper > * {
+        flex-basis: 100%;
+}
+
+.infotext-wrapper{
+        padding-bottom: 2rem;
 }
 
 .infotext-title {
         margin: 0 auto 1rem 0;
+        display: inline-block;
         font-size: 24px;
         color: var(--main-black);
         padding-bottom: .5rem;
-        border-bottom: 10px solid var(--main-darkgold);
         line-height: 110%;
-
+        border-bottom: 10px solid var(--main-darkgold);
 }
 
 .infotext-title>span {
@@ -313,10 +320,14 @@ a:hover {
 }
 
 .video-wrapper {
-        background-color: rgb(168, 168, 168);
         display: flex;
         justify-content: center;
         align-items: center;
+}
+
+video{
+        width: 100%    !important;
+        height: auto   !important;
 }
 
 .accounts-news {
@@ -571,7 +582,7 @@ a:hover {
         margin: 0 4px;
 }
 
-.menu-wrapper{
+.menu-burger{
         display: none;
 }
 
