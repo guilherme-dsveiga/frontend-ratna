@@ -270,15 +270,15 @@ a:hover {
         justify-content: center;
 }
 
-.spacing-2{
+.spacing-2 {
         width: 0;
 }
 
-.info-wrapper > * {
+.info-wrapper>* {
         flex-basis: 100%;
 }
 
-.infotext-wrapper{
+.infotext-wrapper {
         padding-bottom: 2rem;
 }
 
@@ -325,9 +325,9 @@ a:hover {
         align-items: center;
 }
 
-video{
-        width: 100%    !important;
-        height: auto   !important;
+video {
+        width: 100% !important;
+        height: auto !important;
 }
 
 .accounts-news {
@@ -582,14 +582,17 @@ video{
         margin: 0 4px;
 }
 
-.menu-burger{
+.menu-burger {
         display: none;
 }
 
-.menu-block{
+.menu-block {
         display: none;
 }
 
-footer{
-        display: none;
+footer {
+        background-color: var(--main-black);
+        text-align: center;
+        color: white;
+        padding-top: 20px;
 }

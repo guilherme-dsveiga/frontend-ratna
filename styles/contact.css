@@ -1,19 +1,19 @@
-#darkgold-bg{
-        background-color: var(--main-darkgold)!important;
-        margin-top: 3rem!important;
+#darkgold-bg {
+        background-color: var(--main-darkgold) !important;
+        margin-top: 3rem !important;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding: 5rem 0;
 }
 
-.left-half{
+.left-half {
         display: flex;
         flex-direction: column;
         justify-self: center;
 }
 
-.budget-title{
+.budget-title {
         color: white;
         font-size: 36px;
         font-weight: 600;
@@ -23,22 +23,22 @@
 
 }
 
-.budget-title > span{
+.budget-title>span {
         border-bottom: 20px solid black;
 }
 
-.form-group{
+.form-group {
         margin: 1rem 0;
 }
 
-.form-group > label{
+.form-group>label {
         color: white;
         font-size: 18px;
         font-weight: 300;
         line-height: 120%;
 }
 
-.budget-btn{
+.budget-btn {
         background-color: black;
         color: white;
         font-size: 20px;
@@ -48,35 +48,35 @@
         border-radius: 1rem;
 }
 
-.right-half{
+.right-half {
         display: flex;
         flex-direction: column;
         justify-self: center;
 }
 
-.fale-ratna{
-        background-color: rgb(163,130,84);
+.fale-ratna {
+        background-color: rgb(163, 130, 84);
         border-radius: 1rem;
         padding: 1rem 2rem 2rem 2rem;
         color: white;
 }
 
-.f-title{
+.f-title {
         font-size: 24px;
         font-weight: 600;
 }
 
-.f-p{
+.f-p {
         font-size: 18px;
         font-weight: 300;
         line-height: 120%;
 }
 
-.flex-spacing{
+.flex-spacing {
         margin: 1rem 0;
 }
 
-.info-space{
+.info-space {
         font-size: 18px;
         color: white;
         display: flex;
@@ -85,11 +85,11 @@
         font-weight: 300;
 }
 
-.i-site{
-        font-weight: 400!important;
+.i-site {
+        font-weight: 400 !important;
 }
 
-.horarios{
+.horarios {
         font-size: 18px;
         color: white;
         display: flex;
@@ -98,9 +98,11 @@
         font-weight: 300;
 }
 
-.h-title{
+.h-title {
         font-size: 24px;
         font-weight: 600;
 }
 
-
+.swal2-icon {
+        overflow: hidden !important;
+}

@@ -1,196 +1,207 @@
-@media only screen and (max-width: 1500px){
-        .navbar{
+@media only screen and (max-width: 1500px) {
+        .navbar {
                 justify-content: center;
         }
 
-        .nav-item{
+        .nav-item {
                 padding: 0 1.5rem;
         }
 }
 
-@media only screen and (min-width: 1500px){
-        .info-wrapper{
+@media only screen and (min-width: 1500px) {
+        .info-wrapper {
                 padding: 5rem 10rem;
         }
 }
 
-@media only screen and (max-width: 991px){
-        .outter-grid-wrapper{
+@media only screen and (max-width: 991px) {
+        .outter-grid-wrapper {
                 width: 100vw;
         }
 
-        .nav-grid-wrapper{
+        .nav-grid-wrapper {
                 grid-template-columns: 5fr 5fr;
         }
 
-        .img-wrapper{
+        .img-wrapper {
                 padding: 1rem;
         }
 
-        .slideshow-wrapper{
+        .slideshow-wrapper {
                 margin-top: 2rem;
         }
 
-        .main-slidetext-wrapper h1{
+        .main-slidetext-wrapper h1 {
                 font-size: 24px;
         }
 
-        .main-slidetext-wrapper p{
+        .main-slidetext-wrapper p {
                 font-size: 16px;
         }
 
-        .arrow-img-left{
+        .arrow-img-left {
                 width: 25px;
                 height: 25px;
                 top: 8px;
                 left: 6px;
         }
 
-        .arrow-img-right{
+        .arrow-img-right {
                 width: 25px;
                 height: 25px;
                 top: 8px;
                 left: 9px;
         }
 
-        .slidebutton-left{
+        .slidebutton-left {
                 width: 40px;
                 height: 40px;
         }
 
-        .slide-button{
+        .slide-button {
                 width: 40px;
                 height: 40px;
         }
 
-        .slidebutton-right{
+        .slidebutton-right {
                 width: 40px;
                 height: 40px;
         }
 
-        .contact-button{
-                padding: 5px 10px!important;
+        .contact-button {
+                padding: 5px 10px !important;
                 font-size: 16px;
         }
 
-        .our-services{
+        .our-services {
                 padding-top: 1rem;
                 padding-bottom: 0;
         }
 
-        .title-wrapper h1{
+        .title-wrapper h1 {
                 font-size: 24px;
         }
 
-        .title-wrapper span{
+        .title-wrapper span {
                 border-bottom: 8px solid var(--main-darkgold);
         }
 
-        .card-wrapper{
+        .card-wrapper {
                 gap: 2rem;
                 padding: 0 2rem;
         }
 
-        .two-items{
+        .two-items {
                 flex-direction: column;
         }
 
-        .spacing{
-               display: none;
+        .spacing {
+                display: none;
         }
 
-        .card-grid{
+        .card-grid {
                 width: 100%;
         }
 
-        .top-circle{
+        .top-circle {
                 width: 75px;
                 height: 75px;
         }
 
-        .top-circle img{
+        .top-circle img {
                 height: 2.5rem;
         }
 
-        .card-title{
+        .card-title {
                 font-size: 20px;
         }
 
-        .card-p{
+        .card-p {
                 font-size: 16px;
         }
 
-        .margin-bottom{
+        .margin-bottom {
                 margin-bottom: 2rem;
         }
 
-        .info-wrapper{
+        .info-wrapper {
                 flex-direction: column;
         }
 
-        .video-wrapper{
+        .video-wrapper {
                 width: 100%;
         }
 
 
-        .spacing-2{
+        .spacing-2 {
                 display: none;
         }
 
-        .utility-item-grid{
+        .utility-item-grid {
                 display: flex;
                 flex-direction: column;
                 margin: 0 2rem;
         }
 
-        .utility-item{
+        .utility-item {
 
                 padding-bottom: 2rem;
         }
 
-        .img-sizer{
+        .img-sizer {
                 width: 3rem;
         }
 
-        .u-icon{
+        .u-icon {
                 padding-bottom: .5rem;
         }
-        
-        .u-title{
+
+        .u-title {
                 font-size: 22px;
                 padding-bottom: .0;
         }
 
-        .u-p{
+        .u-p {
                 font-size: 18px;
         }
 
-        .contact-us{
-                display: none;
-                flex-direction: column;
+        .contact-us {
+                display: block;
         }
 
-        .ratna-wrapper{
+        .contact-number p {
+                word-break: break-all;
+        }
+
+        .contact-text-wrapper {
                 padding: 1rem 2rem;
         }
 
-        .text-wrapper{
+        .ratna-wrapper {
+                padding: 1rem 2rem;
+        }
+
+        .logo-wrapper img {
+                width: 100%
+        }
+
+        .text-wrapper {
                 padding-top: 1rem;
                 font-size: 18px;
         }
-        
-        .menu-burger{
+
+        .menu-burger {
                 display: block;
                 cursor: pointer;
-                margin-right: 20px ;
+                margin-right: 20px;
                 transition: all ease 2s;
         }
 
-        .navbar{
-                justify-content: flex-end!important;
+        .navbar {
+                justify-content: flex-end !important;
         }
 
-        .menu-block{
+        .menu-block {
                 display: none;
                 position: absolute;
                 top: 0;
@@ -200,7 +211,7 @@
                 transition: all ease 2s;
         }
 
-        .menu-block a{
+        .menu-block a {
                 text-align: center;
                 font-size: 16px;
                 color: var(--main-white);
@@ -208,11 +219,11 @@
                 transition: all ease .2s;
         }
 
-        .menu-block a:hover{
+        .menu-block a:hover {
                 color: rgb(172, 171, 171);
         }
 
-        .social-item{
+        .social-item {
                 text-align: center;
                 font-size: 16px;
                 color: white;
@@ -220,33 +231,33 @@
                 flex-direction: column;
         }
 
-        .social-item a{
+        .social-item a {
                 margin-bottom: 5px;
         }
 
-        .super{
+        .super {
                 font-weight: 700;
-                font-size: 18px!important;
+                font-size: 18px !important;
                 cursor: pointer;
         }
 
-        .accounts-news{
+        .accounts-news {
                 display: flex;
                 flex-direction: column;
                 row-gap: 2rem;
         }
 
-        .latest-news{
+        .latest-news {
                 margin-bottom: 2rem;
         }
 
-        footer{
+        footer {
                 display: block;
                 background-color: var(--main-black);
                 padding: 2rem 1rem 1rem 1rem;
-        }   
+        }
 
-        footer p{
+        footer p {
                 text-align: center;
                 font-size: 16px;
                 color: white;
